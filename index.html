@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-list">
+        <h2 class="title">To-Do List</h2>
+        <div class="list-head">
+            <input type="text" id="taskInput" class="entered-list" placeholder="Add a new task">
+            <input type="date" id="dueDate" class="entered-list">
+            <button class="add-list" onclick="addTask()">Add</button>
+        </div>
+        <ul id="taskList" class="list-items"></ul>
+        <p id="congratulationsMessage" class="congrats-message">🎉 Congratulations! You've completed all your tasks! 🎉</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
